@@ -1,0 +1,132 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+body {
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #333333;
+  /* ================================================================================================================ 
+  Containers
+  */
+  /* ================================================================================================================ 
+  Common elements
+  */
+  /* ================================================================================================================ 
+  Form
+  */
+  /* ================================================================================================================ 
+  Header
+  */
+  /* ================================================================================================================ 
+  Page Sections
+  */
+  /* ================================================================================================================ 
+  Footer
+  */ }
+  body .wrapper {
+    max-width: 960px;
+    margin: auto;
+    padding: 198px 0; }
+  body h1 {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 18px; }
+  body h2 {
+    font-size: 27px;
+    margin-bottom: 18px; }
+  body p {
+    line-height: 1.5em; }
+  body form {
+    text-align: center; }
+  body header form.wrapper {
+    padding: 36px; }
+  body section form.wrapper {
+    padding: 90px 0; }
+  body input {
+    display: inline-block;
+    padding: 9px;
+    margin-top: 18px;
+    border: 2px solid white;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none; }
+  body input[type="email"] {
+    width: 300px; }
+  body input[type="submit"]:hover {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: 0.5; }
+  body input[type="email"]:focus {
+    border-color: #aaaaaa; }
+  body header {
+    height: 510px;
+    background-image: url(/images/header.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    text-align: center; }
+  body .wrapper img {
+    float: left;
+    width: 90px;
+    margin-right: 36px; }
+  body .wrapper p {
+    overflow: hidden; }
+  body section:nth-child(2n+1) {
+    background-color: #f0f0f0; }
+  body section input {
+    color: #333333;
+    border-color: #333333; }
+  body footer {
+    background-color: black; }
+  body footer .wrapper {
+    padding: 6px;
+    font-size: 10.58824px;
+    color: white; }

@@ -1,0 +1,59 @@
+@import "compass/reset";
+@import "compass/css3";
+
+$fs : 18px;
+$black: #333333;
+
+body {
+  font: $fs "Lucida Grande", Helvetica, Arial, sans-serif; color: $black;
+
+
+  /* ================================================================================================================ 
+  Containers
+  */
+  .wrapper { max-width: 960px; margin: auto; padding: $fs*11 0; }
+
+
+  /* ================================================================================================================ 
+  Common elements
+  */
+  h1 { font-size: $fs*2; line-height: $fs*2; margin-bottom: $fs; }
+  h2 { font-size: $fs*1.5; margin-bottom: $fs; }
+  p  { line-height: 1.5em; }
+
+
+  /* ================================================================================================================ 
+  Form
+  */
+  form { text-align: center; }
+  header form.wrapper { padding: $fs*2; }
+  section form.wrapper { padding: $fs*5 0; }
+
+  input,{ display: inline-block; padding: $fs/2; margin-top: $fs; border: 2px solid white; font-size: $fs; text-decoration: none; color: white; 
+          @include transition(opacity 0.2s ease-in-out); background-color: transparent; cursor: pointer; outline: none; }
+  input[type="email"] { width: 300px; }
+  input[type="submit"]:hover,{ @include opacity(0.5); }
+  input[type="email"]:focus  { border-color: #aaaaaa; }
+
+  
+  /* ================================================================================================================ 
+  Header
+  */
+  header { height: 510px; background-image: url(/images/header.jpg); -webkit-background-size: cover; background-size: cover; text-align: center; }
+
+
+  /* ================================================================================================================ 
+  Page Sections
+  */
+  .wrapper img            { float: left; width: $fs*5; margin-right: $fs*2; }
+  .wrapper p              { overflow: hidden; }
+  section:nth-child(2n+1) { background-color: #f0f0f0; }
+  section input { color: $black; border-color: $black; }
+
+  
+  /* ================================================================================================================ 
+  Footer
+  */
+  footer { background-color: black; }
+  footer .wrapper { padding: $fs/3; font-size: $fs/1.7; color: white; }
+}
